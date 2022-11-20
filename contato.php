@@ -19,9 +19,6 @@
                 <input type="submit">
             </form>
             <p></p>
-            <?php
-                include 'footer.html';
-            ?>
         </article>
         
         <?php
