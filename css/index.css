@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .primary-color{
 	background-color: #018989;
 }
 .secondary-color{background-color: #FF8C4B;}
 .dark-color{background-color: #000;}
+
+*{font-family: Roboto, sans-serif;}
 
 .nav-fonte{
 	font-size: 11px;
@@ -12,10 +16,9 @@
 	width: 65px;
 	text-align: center;
 	margin: 7px auto;
+	border-radius: 100%;
 }
-.pad-logo{
-	padding: 0 10px;
-}
+.botao{padding: 14px 14px;}
 .mensagem-altura{
 	height: 200px;
 }
@@ -33,6 +36,7 @@
 		width: 100%;
 		margin: 0;
 		padding: 1rem;
+		border-radius: 0;
 	}
 	.lol{
 		height: 90px;
@@ -42,5 +46,6 @@
 	.logo{
 		margin-top: 0;
 	}
-	main{margin-top: 100px;}
+	.espacamento{margin-top: 100px;}
+	.footer-espacamento{margin-top: 10px;}
 }
